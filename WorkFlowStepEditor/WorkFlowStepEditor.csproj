@@ -2,6 +2,27 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Description>A WorkFlow Step Editor for WorkFlow Editor in  Beep Data Management Engine</Description>
+    <PackageId>TheTechIdea.Beep.Workflow.WorkFlowStepEditor</PackageId>
+    <Authors>The Tech Idea</Authors>
+    <Product>TheTechIdea.Beep.Workflow.WorkFlowStepEditor</Product>
+    <Copyright>2022</Copyright>
+    <PackageProjectUrl>https://github.com/The-Tech-Idea/WorkFlowStepEditor</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/The-Tech-Idea/WorkFlowStepEditor</RepositoryUrl>
+    <PackageIcon>SimpleODM.png</PackageIcon>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\..\OneDrive\SimpleInfoapps\LogoGFx\128\SimpleODM.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="TheTechIdea.Beep.DataManagementEngine2.0" Version="1.0.0.5" />
+  </ItemGroup>
 
 </Project>
